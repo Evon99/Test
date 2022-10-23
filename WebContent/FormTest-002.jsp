@@ -8,6 +8,7 @@
 </head>
 <body>
 <%
+<<<<<<< HEAD
 	out.println("This page is FormTest-002.jsp");
 
 	String id = request.getParameter("_id");
@@ -15,6 +16,23 @@
 	
 	out.println("<p> ID : " + id);
 	out.println("<p> PW : " + pw);
+=======
+	request.setCharacterEncoding("euc-kr");
+	String id = request.getParameter("_ID");
+	String religion = request.getParameter("_religion");
+	String[] interest = request.getParameterValues("_interest");
+	String tel = request.getParameter("_tel");
+	String needs = request.getParameter("_needs");
+	
+	out.println("<p>ID : " + id);
+	out.println("<p>종교 : " + religion);
+	out.println("<p>관심분야 : ");
+	for(int i = 0; i<interest.length; i++){
+		out.println(interest[i] + " ");
+	}
+	out.println("<p>통신사 : " + tel);
+	out.println("<p>하고 싶은 말 : " + needs);
+>>>>>>> refs/remotes/origin/master
 %>
 </body>
 </html>

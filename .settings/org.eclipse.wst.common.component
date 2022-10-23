@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+<<<<<<< HEAD
     <wb-module deploy-name="Test-0908">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
         <property name="context-root" value="Test-0908"/>
         <property name="java-output-path" value="/Test-0908/build/classes"/>
+=======
+    <wb-module deploy-name="Test-0711">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="Test-0711"/>
+        <property name="java-output-path" value="/Test-0711/build/classes"/>
+>>>>>>> refs/remotes/origin/master
     </wb-module>
 </project-modules>
